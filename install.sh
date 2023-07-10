@@ -25,7 +25,7 @@ rm -rf mantis-theme
 
 # Setup dotfiles
 mkdir ~/.config
-cd ~/dotfiles/bspwm-config
+cd ~/dotfiles/config
 mv * ~/.config/
 
 # Enabling execution permissions
@@ -66,10 +66,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
 rustup install nightly
 cd ~
-git clone https://aur.archlinux.org/eww-git.git
-mv ~/eww-git ~/.eww
-cd ~/.eww
-makepkg -si
+yay -S eww-x11-git
 
 # Setup ohmyzsh
 cd ~
