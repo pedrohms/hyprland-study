@@ -7,6 +7,9 @@
 
 NOTE: The install scripts are just for my hardware after a fresh arch install. Please do not use them unless you plan to modify them.<br>
 
+You can clone this branch with
+`git clone -b bspwm https://github.com/sudo-harun/dotfiles.git`
+
 Stuff I use:
 <ul>
   <li><a href="https://github.com/adi1090x/rofi">Rofi Themes Collection</a></li>
