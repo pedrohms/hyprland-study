@@ -3,6 +3,11 @@
 <div align="center">
   <img src="./images/screenshot1.png">
   <img src="./images/screenshot2.png">
+  
+
+https://github.com/sudo-harun/dotfiles/assets/123123333/05250199-1945-4018-86bd-19516969f627
+
+
 </div><br>
 
 NOTE: The install scripts are just for my hardware after a fresh arch install. Please do not use them unless you plan to modify them.<br>
