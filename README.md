@@ -5,7 +5,7 @@
   <img src="./images/screenshot2.png">
   
 
-https://github.com/sudo-harun/dotfiles/assets/123123333/05250199-1945-4018-86bd-19516969f627
+https://github.com/sudo-harun/dotfiles/assets/123123333/0c82be17-767e-4b7d-9925-f2381d6b0a6c
 
 
 </div><br>
