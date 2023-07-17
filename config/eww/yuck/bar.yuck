@@ -1,17 +1,17 @@
-(deflisten workspaces "./scripts/new-workspaces.sh")
-(defpoll wn :interval "0.1s" "./scripts/window-name.sh")
-(defpoll wifi-icon :interval "10s" "./scripts/wifi.sh icon")
-(defpoll wifi-strength :interval "10s" "./scripts/wifi.sh percentage")
-(defpoll vol-icon :interval "1s" "./scripts/volume.sh icon")
-(defpoll bat-icon :interval "1m" "./scripts/battery.sh icon")
-(defpoll bat-lvl :interval "1m" "./scripts/battery.sh level")
+(deflisten workspaces "./scripts/workspaces")
+(defpoll wn :interval "0.1s" "./scripts/activewindowname")
+(defpoll wifi-icon :interval "10s" "./scripts/wifi icon")
+(defpoll wifi-strength :interval "10s" "./scripts/wifi percentage")
+(defpoll vol-icon :interval "1s" "./scripts/volume icon")
+(defpoll bat-icon :interval "1m" "./scripts/battery icon")
+(defpoll bat-lvl :interval "1m" "./scripts/battery level")
 (defpoll volume :interval "1s" "pamixer --get-volume-human")
 (defpoll time :interval "1s" 'date "+%R"')
 (defpoll date :interval "1s" 'date "+%a %d %b"')
-(defpoll br-lvl :interval "1s" `./scripts/brightness.sh`)
-(defpoll bt-icon :interval "1s" "./scripts/bluetooth.sh")
-(defpoll cpu :interval "1s" "./scripts/cpu.sh")
-(defpoll mem :interval "1s" "./scripts/memory.sh")
+(defpoll br-lvl :interval "1s" `./scripts/brightness`)
+(defpoll bt-icon :interval "1s" "./scripts/bluetooth")
+(defpoll cpu :interval "1s" "./scripts/cpu")
+(defpoll mem :interval "1s" "./scripts/memory")
 
 (defvar eww "eww")
 
@@ -102,15 +102,10 @@
         :duration "250ms"
         (label :text bat-lvl)))))
 
-(defwidget menu []
-  (box
-    :class "bar-menu"
-    (button :class "menu-btn" :tooltip "toggle menu" :onclick "./scripts/toggle-cc.sh" "󰊠")))
-
 (defwidget bt []
   (box
     :class "bar-bt"
-    (button :class "bar-bt-btn" :tooltip "open bluetoothctl" :onclick "./scripts/kitty.sh bluetoothctl" "")))
+    (button :class "bar-bt-btn" :tooltip "open bluetoothctl" :onclick "./scripts/kitty bluetoothctl" "")))
 
 (defwidget time []
   (box
