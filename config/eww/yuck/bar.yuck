@@ -1,8 +1,4 @@
-(defpoll w1 :interval "0.1s" "./scripts/workspaces.sh w1")
-(defpoll w2 :interval "0.1s" "./scripts/workspaces.sh w2")
-(defpoll w3 :interval "0.1s" "./scripts/workspaces.sh w3")
-(defpoll w4 :interval "0.1s" "./scripts/workspaces.sh w4")
-(defpoll w5 :interval "0.1s" "./scripts/workspaces.sh w5")
+(deflisten workspaces "./scripts/new-workspaces.sh")
 (defpoll wn :interval "0.1s" "./scripts/window-name.sh")
 (defpoll wifi-icon :interval "10s" "./scripts/wifi.sh icon")
 (defpoll wifi-strength :interval "10s" "./scripts/wifi.sh percentage")
@@ -25,18 +21,7 @@
 (defvar br-rev false)
 
 (defwidget workspaces []
-  (box
-    :class "bar-workspace"
-    :orientation "h"
-    :spacing 10
-    :space-evenly false
-    :halign "start"
-    :hexpand false
-    (label :class w1 :text "一")
-    (label :class w2 :text "二")
-    (label :class w3 :text "三")
-    (label :class w4 :text "四")
-    (label :class w5 :text "五")))
+  (literal :content workspaces))
 
 (defwidget cpu []
   (box
@@ -67,7 +52,7 @@
     (box 
       :class "bar-wifi-widget"
       :space-evenly false
-      (label :class "bar-wifi-str" :limit-width 12 :text wifi-icon)
+      (label :class "bar-wifi-str" :text wifi-icon)
       (revealer
         :transition "slideright"
         :reveal wifi-rev
@@ -82,8 +67,7 @@
     (box 
       :class "bar-vol-widget"
       :space-evenly false
-      :limit-height 10
-      (label :class "bar-vol" :limit-width 12 :text vol-icon)
+      (label :class "bar-vol" :text vol-icon)
       (revealer
         :transition "slideright"
         :reveal vol-rev
@@ -97,8 +81,7 @@
     (box 
       :class "bar-br-widget"
       :space-evenly false
-      :limit-height 10
-      (label :class "bar-br" :limit-width 12 :text "󰃟 ")
+      (label :class "bar-br" :text "󰃟 ")
       (revealer
         :transition "slideright"
         :reveal br-rev
@@ -191,11 +174,11 @@
   :windowtype "dock"
   :monitor "0"
   :wm-ignore false
-  :reserve (struts :distance "40px" :side "top")
+  :reserve (struts :distance "58px" :side "top")
   :geometry (geometry
               :x "0px"
-              :y "0px"
-              :width "100%"
+              :y "12px"
+              :width "98%"
               :height "50px"
               :anchor "top center")
   (bar))

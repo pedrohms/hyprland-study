@@ -2,11 +2,7 @@
 
 xaw=`xdotool get_desktop`
 aw=xaw+1
-occ1=`bspc query -D -d .occupied --names | grep -i '1'`
-occ2=`bspc query -D -d .occupied --names | grep -i '2'`
-occ3=`bspc query -D -d .occupied --names | grep -i '3'`
-occ4=`bspc query -D -d .occupied --names | grep -i '4'`
-occ5=`bspc query -D -d .occupied --names | grep -i '5'`
+occ1=`bspc query -D -d .occupied --names`
 
 w1() {
   if [[ $aw -eq 1 ]]; then

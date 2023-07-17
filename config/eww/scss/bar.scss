@@ -6,6 +6,11 @@
 
 .bar-workspace {
   font-family: "Noto Sans CJK JP";
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 4px 12px;
+  margin: 0px 4px;
+  border: 1px solid #505050;
+  border-radius: 8px;
 }
 
 .bar-wifi-str {
@@ -26,27 +31,36 @@
 
 window,
 .bar {
-  padding: 3px 6px;
+  padding: 4px 4px;
   margin: 5px;
-  background-color: transparent;
 }
 
-.bar-workspace,
+window {
+  background-color: transparent;
+  border: 1px solid #505050;
+  border-radius: 8px;
+}
+
+bar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .bar-wn-wid,
 .bar-side,
 .bar-time,
 .bar-date,
 .bar-cpu,
 .bar-memory {
-  background-color: #000000;
-  padding: 0px 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0px 12px;
   margin: 0px 4px;
-  border: 1px solid #5F5F5F;
-  border-radius: 2px;
+  border: 1px solid #505050;
+  border-radius: 8px;
 }
 
 .bar-bat {
   padding-right: 3px;
+  font-size: 16px;
 }
 
 .bar-vol {
