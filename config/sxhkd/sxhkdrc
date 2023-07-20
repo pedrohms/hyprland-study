@@ -51,6 +51,10 @@ mod4 + f
 mod4 + r
   ~/.config/rofi/launchers/type-2/launcher.sh
 
+# Spawn rofi-emoji
+mod4 + e
+  ~/.config/rofi/launchers/type-2/emoji.sh
+
 # Desktops
 mod4 + {1,2,3,4,5}
   bspc desktop -f {1,2,3,4,5}
