@@ -1,12 +1,12 @@
-<h1>BSPWM Dotfiles</h1>
+# BSPWM Dotfiles
 
-<h3>Vertical Bar</h3>
+### Vertical Bar
 <div align="center">
   <img src="./images/bspwm-vertical-bar-1.png">
   <img src="./images/bspwm-vertical-bar-2.png">
 </div><br>
 
-<h3>Horizontal Bar</h3>
+### Horizontal Bar
 <div align="center">
   <img src="./images/bspwm-horizontal-bar-1.png">
   <img src="./images/bspwm-horizontal-bar-2.png">
