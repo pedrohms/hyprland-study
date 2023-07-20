@@ -6,7 +6,7 @@
 
 .bar-workspace {
   font-family: "Noto Sans CJK JP";
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(125, 125, 125, 0.25);
   padding: 4px 12px;
   margin: 0px 4px;
   border: 1px solid #505050;
@@ -22,11 +22,11 @@
 }
 
 .bar-occupied-ws {
-  color: rgba(245, 245, 245, 0.5);
+  color: rgba(125, 125, 125, 1);
 }
 
 .bar-ws {
-  color: #000000;
+  color: transparent;
 }
 
 window,
@@ -42,7 +42,7 @@ window {
 }
 
 bar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(125, 125, 125, 0.25);
 }
 
 .bar-wn-wid,
@@ -51,7 +51,7 @@ bar {
 .bar-date,
 .bar-cpu,
 .bar-memory {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(125, 125, 125, 0.5);
   padding: 0px 12px;
   margin: 0px 4px;
   border: 1px solid #505050;
