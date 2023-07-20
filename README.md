@@ -2,8 +2,14 @@
 
 <h3>Vertical Bar</h3>
 <div align="center">
-  <img src="./images/screenshot1.png">
-  <img src="./images/screenshot2.png">
+  <img src="./images/bspwm-vertical-bar-1.png">
+  <img src="./images/bspwm-vertical-bar-2.png">
+</div><br>
+
+<h3>Horizontal Bar</h3>
+<div align="center">
+  <img src="./images/bspwm-horizontal-bar-1.png">
+  <img src="./images/bspwm-horizontal-bar-2.png">
 </div><br>
 
 NOTE: The install scripts are just for my hardware after a fresh arch install. Please do not use them unless you plan to modify them.<br>
