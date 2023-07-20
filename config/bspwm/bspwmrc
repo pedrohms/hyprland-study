@@ -4,8 +4,8 @@ export DESKTOP_SESSION="bspwm"
 xsetroot -cursor_name left_ptr
 sxhkd &
  
-bspc config border_width	2
-bspc config window_gap		12
+bspc config border_width	1
+bspc config window_gap		20
  
 bspc config split_ratio		0.5
 bspc config focus_follows_pointer	false
@@ -31,4 +31,5 @@ dunst &
 feh --bg-fill ~/.config/bspwm/wallpaper.jpg
 picom &
 ~/.config/bspwm/fullscreen.sh &
-eww daemon ; eww -c ~/.config/eww/bar/ open bar
+eww daemon
+eww open bar
