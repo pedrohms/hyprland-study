@@ -43,22 +43,18 @@ chmod +x ranger/scope.sh
 chmod +x scripts/ffmpeg.sh
 chmod +x scripts/scrot.sh
 chmod +x wmstuff/minimizer.sh
-chmod +x eww/scripts/battery.sh
-chmod +x eww/scripts/bluetooth.sh
-chmod +x eww/scripts/kitty.sh
-chmod +x eww/scripts/toggle-cc.sh
-chmod +x eww/scripts/toggle-wifi.sh
-chmod +x eww/scripts/volume.sh
-chmod +x eww/scripts/wifi.sh
-chmod +x eww/scripts/window-name.sh
-chmod +x eww/scripts/workspaces.sh
-chmod +x eww/bar/scripts/bat-percent.sh
-chmod +x eww/bar/scripts/battery.sh
-chmod +x eww/bar/scripts/volume-icon.sh
-chmod +x eww/bar/scripts/wifi-icon.sh
-chmod +x eww/bar/scripts/wifi-percent.sh
-chmod +x eww/bar/scripts/window-name.sh
-chmod +x eww/bar/scripts/workspaces.sh
+chmod +x eww/scripts/activewindowname
+chmod +x eww/scripts/bluetooth
+chmod +x eww/scripts/battery
+chmod +x eww/scripts/brightness
+chmod +x eww/scripts/cpu
+chmod +x eww/scripts/kitty
+chmod +x eww/scripts/memory
+chmod +x eww/scripts/vertical-battery
+chmod +x eww/scripts/vertical-workspaces
+chmod +x eww/bar/scripts/volume
+chmod +x eww/bar/scripts/wifi
+chmod +x eww/bar/scripts/workspaces
 
 # Installing eww and rust using rustup
 cd ~
