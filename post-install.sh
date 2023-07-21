@@ -6,6 +6,7 @@ echo "exec bspwm" >> ~/.xinitrc
 echo "# Custom Aliases" >> ~/.zshrc
 echo "alias convita='~/.config/scripts/ffmpeg.sh'" >> ~/.zshrc
 echo "alias myscrot='scrot ~/Pictures/Screenshots/%d%b::%H:%M:%S.png'" >> ~/.zshrc
+echo "alias neocat='cd ~/.neocat ; ./neocat.sh ; cd ~'" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# Adding stuff to path" >> ~/.zshrc
 echo "path+=('/home/harun/.local/bin/')" >> ~/.zshrc # Edit this line for your user
