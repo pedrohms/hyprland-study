@@ -1,8 +1,8 @@
 #!/bin/bash
 
 clear
-echo "WARNING: This script is intended to run inside a GUI (e.g. a window manager or desktop environment)"
-echo "If you are not in a GUI, please cancel by pressing Ctrl + c immediately"
+echo "WARNING: This script is intended to run inside of a window manager or desktop environment (this will not work in a TTY!!)"
+echo "If you are not in a window manager / desktop environment, please cancel by pressing Ctrl + c immediately"
 sleep 10
 clear
 echo "Continuing..."
