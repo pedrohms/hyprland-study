@@ -23,12 +23,6 @@ echo "cd ~" >> ~/.zshrc
 # Source zshrc for changes to take effect in current session
 source ~/.zshrc
 
-# Prevent looooong application loading times
-systemctl mask --user --now xdg-desktop-portal.service
-systemctl mask --user --now xdg-desktop-portal-gtk.service
-systemctl mask --now xdg-desktop-portal.service
-systemctl mask --now xdg-desktop-portal-gtk.service
-
 # Bluetooth
 yay -S bluez bluez-tools bluez-utils
 systemctl enable --now bluetooth
