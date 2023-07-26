@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd ~/dotfiles
+mv config/wezterm.lua ~/.wezterm.lua
+
 # Installing yay
 cd ~
 git clone https://aur.archlinux.org/yay.git
