@@ -61,7 +61,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
 rustup install nightly
 cd ~
-yay -S eww-x11-git
 
 # Setup ohmyzsh
 cd ~
