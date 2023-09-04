@@ -2,7 +2,7 @@
 
 ⭐ If you like these, please star! ⭐
 
-## <a href="https://github.com/sudo-harun/dotfiles/tree/hyprland">Hyprland config (kinda WIP)</a>
+## <a href="https://github.com/pedrohms/hyprland-study/tree/hyprland">Hyprland config (kinda WIP)</a>
 
 <div align="center">
   <img src="./assets/hyprland1.png">
@@ -11,7 +11,7 @@
   <img src="./assets/hyprland4.png">
 </div><br>
 
-## <a href="https://github.com/sudo-harun/dotfiles/tree/bspwm">BSPWM config</a>
+## <a href="https://github.com/pedrohms/hyprland-study/tree/bspwm">BSPWM config</a>
 
 ### Vertical Bar
 <div align="center">
